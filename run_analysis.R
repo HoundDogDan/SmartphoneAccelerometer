@@ -74,7 +74,7 @@ data.grouped <- melt(data.all, id.var = c('subject','activity'))
 data.avg <- dcast(data.grouped, subject + activity ~ variable, mean)
 
 ##write the data to the file.
-write.table(data.avg, file="tidydata.txt")
+write.table(data.avg, file="tidydata.txt",  row.name=FALSE)
 
 
 
