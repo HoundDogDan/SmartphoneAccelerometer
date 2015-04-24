@@ -116,6 +116,15 @@ The tidydata.txt data has the following columns:
 |fBodyBodyGyroJerkMag-meanFreq()|    |
 
 
+___
+# The transformation
+
+The training and test data sets were combinded to form one set (measurements,subjects and activities); combined with the activity name.
+
+That was then filtered to only include variables which were either the mean or standard deviation ( mean() or std()).
+
+The data was then flattened to facilitate averaging by subject and activity accross all measurements.
+
 
 
 
