@@ -25,4 +25,5 @@ The tidy data set can be read with this R command:
 '''
 d <- read.table("tidydata.txt", header=TRUE)
 
-
+### Requirements
+R, R-Studio, reshape2 library
