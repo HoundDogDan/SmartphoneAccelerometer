@@ -11,26 +11,41 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 #### The variables
 
+Quick key to variable nameing
+
+ * t = time domain signals
+ * f = indicates frequency domain signals
+ * Acc = Acelerometer
+ * Gyro = gyroscope
+ * Body = body 
+ * Gravity  = gravity acceleration signals
+ * -mean() = the mean
+ * -std() = the standard deviation
+ * -X  - X dimension (3 - dimensional) 
+ * -Y  - Y dimension (3 - dimensional) 
+ * -Z  - Z dimension (3 - dimensional) 
+
+
 The tidydata.txt data has the following columns:
 
 
 
 
 |Variable | Definition |
-|---------|------------|
+|-------------------|------------|
 |subject| a unique number assigned to observed person   |
 |activity| the activity performed at the time of observation    |
-|tBodyAcc-mean()-X|    |
-|tBodyAcc-mean()-Y|    |
+|tBodyAcc-mean()-X| This and the remainder of the variables are the calculation of the average of the variable for each activity and each subject     |
+|tBodyAcc-mean()-Y|   |
 |tBodyAcc-mean()-Z|    |
-|tBodyAcc-std()-X|    |
-|tBodyAcc-std()-Y|    |
-|tBodyAcc-std()-Z|    |
-|tGravityAcc-mean()-X|    |
-|tGravityAcc-mean()-Y|    |
-|tGravityAcc-mean()-Z|    |
-|tGravityAcc-std()-X|    |
-|tGravityAcc-std()-Y|    |
+|tBodyAcc-std()-X|      |
+|tBodyAcc-std()-Y|     |
+|tBodyAcc-std()-Z|   |
+|tGravityAcc-mean()-X|      |
+|tGravityAcc-mean()-Y|      |
+|tGravityAcc-mean()-Z|     |
+|tGravityAcc-std()-X|     |
+|tGravityAcc-std()-Y|     |
 |tGravityAcc-std()-Z|    |
 |tBodyAccJerk-mean()-X|    |
 |tBodyAccJerk-mean()-Y|    |
