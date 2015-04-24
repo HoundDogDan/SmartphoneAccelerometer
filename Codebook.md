@@ -5,6 +5,7 @@
 This code book describes the variables, the data, and transformations performed to clean up the data
 
 #### The source data
+
 The source data was pulled from the following link.  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -18,7 +19,16 @@ activity - the subject's activity during the observation.  one of the following:
 
 
 
-The original code book is included here for further reference.
+
+
+
+
+
+
+
+
+
+## The original code book is included here for further reference.
 
 Feature Selection 
 =================
